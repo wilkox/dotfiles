@@ -15,7 +15,7 @@ numlockx on&
 #LESS IMPORTANT THINGS CAN START LATER, otherwise login is very slow
 sleep 1m;
 unclutter -idle 1& #hides mouse pointer after 1 second of inactivity
-dropbox start& #dropbox
+#dropbox start& #dropbox
 /usr/bin/gnome-keyring-daemon --start --components=secrets & #key managment
 /usr/bin/gnome-keyring-daemon --start --components=ssh & #key managment
 /usr/bin/gnome-keyring-daemon --start --components=pkcs11 & #key managment
