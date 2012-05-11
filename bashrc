@@ -102,8 +102,3 @@ fi
 export PATH=$PATH:/home/wilkox/bin
 export SVN_EDITOR=vim
 export PYTHONPATH=$PYTHONPATH:/home/wilkox/bin/kobas/kobas2.0-20110214/src
-
-#xinit on startup
-if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
-  exec xinit -- /usr/bin/X -nolisten tcp vt7
-fi
