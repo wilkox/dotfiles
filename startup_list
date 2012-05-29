@@ -13,6 +13,7 @@ redshift -l -33.867139:151.207114& #redshift
 numlockx on&
 
 #LESS IMPORTANT THINGS CAN START LATER, otherwise login is very slow
+nautilus -n;
 sleep 1m;
 unclutter -idle 1& #hides mouse pointer after 1 second of inactivity
 /usr/bin/gnome-keyring-daemon --start --components=secrets & #key managment
