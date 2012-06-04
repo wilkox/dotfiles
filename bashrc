@@ -102,3 +102,9 @@ fi
 export PATH=$PATH:/home/wilkox/bin
 export SVN_EDITOR=vim
 export PYTHONPATH=$PYTHONPATH:/home/wilkox/bin/kobas/kobas2.0-20110214/src
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+#vim mode
+set -o vi

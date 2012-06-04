@@ -19,3 +19,4 @@ unclutter -idle 1& #hides mouse pointer after 1 second of inactivity
 /usr/bin/gnome-keyring-daemon --start --components=secrets & #key managment
 /usr/bin/gnome-keyring-daemon --start --components=ssh & #key managment
 /usr/bin/gnome-keyring-daemon --start --components=pkcs11 & #key managment
+rescuetime_linux_uploader &
