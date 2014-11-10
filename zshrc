@@ -45,7 +45,7 @@ DISABLE_AUTO_TITLE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew)
+plugins=(git brew zsh-syntax-highlighting colored-man history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -83,3 +83,5 @@ alias R="R --no-save"
 # Vim keybindings
 bindkey -v
 
+# Reverse search with Ctrl+R
+bindkey '^R' history-incremental-search-backward
