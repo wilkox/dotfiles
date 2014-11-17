@@ -85,3 +85,6 @@ bindkey -v
 
 # Reverse search with Ctrl+R
 bindkey '^R' history-incremental-search-backward
+
+# perlbrew
+source ~/perl5/perlbrew/etc/bashrc
