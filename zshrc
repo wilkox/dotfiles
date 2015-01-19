@@ -79,7 +79,7 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texb
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias R="R --no-save"
-alias vi="vim"
+alias vi="vim --servername VIM"
 alias gasc="git annex sync --content"
 
 # Vim keybindings
