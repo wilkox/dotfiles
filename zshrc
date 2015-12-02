@@ -99,3 +99,6 @@ unset MAILCHECK
 
 # Sourcetracker
 export SOURCETRACKER_PATH=/Users/wilkox/bin/sourcetracker-0.9.6/
+
+# Banjo
+export BANJO_PATH=/Users/wilkox/opt/banjo/banjo.jar
