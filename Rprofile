@@ -1,4 +1,3 @@
-library(vimcom)
 library(colorout)
 library(setwidth)
 library(devtools)
