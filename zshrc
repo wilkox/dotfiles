@@ -51,7 +51,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin:/Users/wilkox/.pyenv/shims:/Users/wilkox/perl5/perlbrew/bin:/Users/wilkox/perl5/perlbrew/perls/perl-5.18.4/bin:/Users/wilkox/bin:/usr/local/sbin:~/bin:/usr/local/heroku/bin:/Users/wilkox/.rvm/bin:/Applications/git-annex.app/Contents/MacOS:/Users/wilkox/bin/illumina-utils/scripts:/usr/local/opt/ruby/bin:/Users/wilkox/OTU_table_tools:/Users/wilkox/bin:/Users/wilkox/vim/scripts"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin:/Users/wilkox/.pyenv/shims:/Users/wilkox/bin:/usr/local/sbin:~/bin:/usr/local/heroku/bin:/Users/wilkox/.rvm/bin:/Applications/git-annex.app/Contents/MacOS:/Users/wilkox/bin/illumina-utils/scripts:/usr/local/opt/ruby/bin:/Users/wilkox/OTU_table_tools:/Users/wilkox/bin:/Users/wilkox/vim/scripts"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
