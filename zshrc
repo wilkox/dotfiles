@@ -88,9 +88,6 @@ bindkey -v
 # Reverse search with Ctrl+R
 bindkey '^R' history-incremental-search-backward
 
-# perlbrew
-source ~/perl5/perlbrew/etc/bashrc
-
 # pyenv
 eval "$(pyenv init -)"
 
@@ -102,3 +99,6 @@ export SOURCETRACKER_PATH=/Users/wilkox/bin/sourcetracker-0.9.6/
 
 # Banjo
 export BANJO_PATH=/Users/wilkox/opt/banjo/banjo.jar
+
+# perlbrew
+source ~/perl5/perlbrew/etc/bashrc
