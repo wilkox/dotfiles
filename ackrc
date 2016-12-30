@@ -5,4 +5,4 @@
 
 ## Types
 --type-add=Rmd=.Rmd
-
+--type-add=R=.R
