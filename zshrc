@@ -102,3 +102,8 @@ PERL5LIB="/Users/wilkox/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5L
 PERL_LOCAL_LIB_ROOT="/Users/wilkox/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"/Users/wilkox/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/Users/wilkox/perl5"; export PERL_MM_OPT;
+
+# SSU-ALIGN
+export SSUALIGNDIR="/Users/wilkox/opt/ssu-align-0.1.1/share/ssu-align-0.1.1"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
