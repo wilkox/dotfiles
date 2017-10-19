@@ -80,7 +80,8 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias R="R --no-save"
 alias gasc="git annex sync --content"
-alias vi="vim"
+alias vi="nvim"
+alias vim="nvim"
 
 # Vim keybindings
 bindkey -v
@@ -107,3 +108,6 @@ PERL_MM_OPT="INSTALL_BASE=/Users/wilkox/perl5"; export PERL_MM_OPT;
 export SSUALIGNDIR="/Users/wilkox/opt/ssu-align-0.1.1/share/ssu-align-0.1.1"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Set term
+export TERM='screen-256color'
