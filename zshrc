@@ -111,3 +111,6 @@ export SSUALIGNDIR="/Users/wilkox/opt/ssu-align-0.1.1/share/ssu-align-0.1.1"
 
 # Set term
 export TERM='screen-256color'
+
+# Perlbrew
+source ~/perl5/perlbrew/etc/bashrc
