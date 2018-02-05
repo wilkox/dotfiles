@@ -114,3 +114,8 @@ export TERM='screen-256color'
 
 # Perlbrew
 source ~/perl5/perlbrew/etc/bashrc
+
+# pyenv
+export PATH="/Users/wilkox/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
