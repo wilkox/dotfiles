@@ -4,5 +4,7 @@
 --follow
 
 ## Types
---type-add=Rmd=.Rmd
---type-add=R=.R
+--type-set=rmd:ext:Rmd
+--type-set=Rmd:ext:Rmd
+--type-set=rmarkdown:ext:Rmd
+--type-set=Rmarkdown:ext:Rmd
