@@ -8,3 +8,5 @@
 --type-set=Rmd:ext:Rmd
 --type-set=rmarkdown:ext:Rmd
 --type-set=Rmarkdown:ext:Rmd
+--type-set=R:ext:R
+--type-set=r:ext:R
