@@ -22,5 +22,9 @@ options(
   blogdown.ext = ".Rmd"
 
 )
+if (interactive()) {
+  suppressMessages(require(devtools))
+  suppressMessages(require(usethis))
+}
 # R will silently ignore the last line of .Rprofile unless it ends with a
 # newline
