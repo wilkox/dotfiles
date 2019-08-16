@@ -51,7 +51,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin:/Users/wilkox/bin:/usr/local/sbin:~/bin:/usr/local/heroku/bin:/Users/wilkox/.rvm/bin:/Applications/git-annex.app/Contents/MacOS:/Users/wilkox/bin/illumina-utils/scripts:/usr/local/opt/ruby/bin:/Users/wilkox/OTU_table_tools:/Users/wilkox/bin:/Users/wilkox/vim/scripts"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin:/Users/wilkox/bin:/usr/local/sbin:~/bin:/usr/local/heroku/bin:/Users/wilkox/.rvm/bin:/Applications/git-annex.app/Contents/MacOS:/Users/wilkox/bin/illumina-utils/scripts:/usr/local/opt/ruby/bin:/Users/wilkox/OTU_table_tools:/Users/wilkox/bin:/Users/wilkox/nvim/scripts"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -108,15 +108,3 @@ PERL_MM_OPT="INSTALL_BASE=/Users/wilkox/perl5"; export PERL_MM_OPT;
 export SSUALIGNDIR="/Users/wilkox/opt/ssu-align-0.1.1/share/ssu-align-0.1.1"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# Set term
-export TERM='screen-256color'
-
-# Perlbrew
-source ~/perl5/perlbrew/etc/bashrc
-
-# pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
