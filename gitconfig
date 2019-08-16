@@ -1,0 +1,13 @@
+[user]
+	name = David Wilkins
+	email = david@wilkox.org
+[credential]
+	helper = osxkeychain
+[core]
+  excludesfile = ~/.gitignore_global
+  editor = /usr/local/bin/nvim
+[diff]
+  tool = vimdiff
+[difftool]
+  prompt = false
+  trustExitCode = true
