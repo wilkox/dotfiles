@@ -1,6 +1,7 @@
 library(stats)
 library(colorout)
 Sys.setenv(TZ = "Australia/Sydney")
+setOutputColors(error = c(0, 1), string = 15, verbose = FALSE) 
 options(
 
   # Default CRAN mirror
@@ -21,7 +22,7 @@ options(
     License = "MIT + file LICENSE",
     Version = "0.0.0.9000"
   ),
-  usethis.protocol  = "ssh",
+  usethis.protocol = "https",
 
   # blogdown options
   blogdown.author = "David Wilkins",
