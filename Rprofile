@@ -1,7 +1,5 @@
 library(stats)
-library(colorout)
 Sys.setenv(TZ = "Australia/Sydney")
-setOutputColors(error = c(0, 1), string = 15, verbose = FALSE) 
 options(
 
   # Default CRAN mirror
@@ -32,6 +30,8 @@ options(
 if (interactive()) {
   suppressMessages(require(devtools))
   suppressMessages(require(usethis))
+  suppressMessages(require(colorout))
+  setOutputColors(error = c(0, 1), string = 15, verbose = FALSE) 
 }
 # R will silently ignore the last line of .Rprofile unless it ends with a
 # newline
