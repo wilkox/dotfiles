@@ -11,3 +11,5 @@
 [difftool]
   prompt = false
   trustExitCode = true
+[pull]
+	rebase = false
