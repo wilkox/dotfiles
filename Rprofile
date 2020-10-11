@@ -29,6 +29,7 @@ options(
 )
 if (interactive()) {
   suppressMessages(require(devtools))
+  suppressMessages(require(reprex))
   suppressMessages(require(usethis))
   suppressMessages(require(colorout))
   setOutputColors(error = c(0, 1), string = 15, verbose = FALSE) 
