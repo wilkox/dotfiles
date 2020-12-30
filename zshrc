@@ -108,3 +108,8 @@ PERL_MM_OPT="INSTALL_BASE=/Users/wilkox/perl5"; export PERL_MM_OPT;
 export SSUALIGNDIR="/Users/wilkox/opt/ssu-align-0.1.1/share/ssu-align-0.1.1"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export PATH="/usr/local/opt/libxml2/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/libxml2/lib"
+export CPPFLAGS="-I/usr/local/opt/libxml2/include"
+export PKG_CONFIG_PATH="/usr/local/opt/libxml2/lib/pkgconfig"
