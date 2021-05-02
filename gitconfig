@@ -13,3 +13,5 @@
   trustExitCode = true
 [pull]
 	rebase = false
+[github]
+	user = wilkox
