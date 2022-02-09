@@ -92,24 +92,8 @@ bindkey '^R' history-incremental-search-backward
 # Don't tell me about new mail
 unset MAILCHECK
 
-# Sourcetracker
-export SOURCETRACKER_PATH=/Users/wilkox/opt/sourcetracker-1.0.1
+# homebrew shellenv
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# Banjo
-export BANJO_PATH=/Users/wilkox/opt/banjo/banjo.jar
-
-PATH="/Users/wilkox/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/Users/wilkox/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/Users/wilkox/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/Users/wilkox/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/Users/wilkox/perl5"; export PERL_MM_OPT;
-
-# SSU-ALIGN
-export SSUALIGNDIR="/Users/wilkox/opt/ssu-align-0.1.1/share/ssu-align-0.1.1"
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-export PATH="/usr/local/opt/libxml2/bin:$PATH"
-export LDFLAGS="-L/usr/local/opt/libxml2/lib"
-export CPPFLAGS="-I/usr/local/opt/libxml2/include"
-export PKG_CONFIG_PATH="/usr/local/opt/libxml2/lib/pkgconfig"
+# pyenv
+eval "$(pyenv init -)"
