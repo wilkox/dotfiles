@@ -5,7 +5,7 @@
 	helper = osxkeychain
 [core]
   excludesfile = ~/.gitignore_global
-  editor = /usr/local/bin/nvim
+  editor = /opt/homebrew/bin/nvim
 [diff]
   tool = vimdiff
 [difftool]
