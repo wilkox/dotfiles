@@ -96,4 +96,4 @@ unset MAILCHECK
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # pyenv
-eval "$(pyenv init -)"
+eval "$(pyenv init --path)"
