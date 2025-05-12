@@ -51,7 +51,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin:/Users/wilkox/bin:/usr/local/sbin:~/bin:/usr/local/heroku/bin:/Users/wilkox/.rvm/bin:/Applications/git-annex.app/Contents/MacOS:/Users/wilkox/bin/illumina-utils/scripts:/usr/local/opt/ruby/bin:/Users/wilkox/OTU_table_tools:/Users/wilkox/bin:/Users/wilkox/nvim/scripts:/Users/wilkox/.cargo/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin:/Users/wilkox/bin:/usr/local/sbin:~/bin:/usr/local/heroku/bin:/Users/wilkox/.rvm/bin:/Applications/git-annex.app/Contents/MacOS:/usr/local/opt/ruby/bin:/Users/wilkox/nvim/scripts:/Users/wilkox/.cargo/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -97,3 +97,8 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # pyenv
 eval "$(pyenv init --path)"
+
+# Secret environmental variables (e.g. API keys)
+if [ -f ~/.zsh_secrets ]; then
+  source ~/.zsh_secrets
+fi
