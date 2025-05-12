@@ -1,5 +1,5 @@
 library(stats)
-Sys.setenv(TZ = "Australia/Sydney")
+Sys.setenv(TZ = "Australia/Adelaide")
 options(
 
   # Default CRAN mirror
