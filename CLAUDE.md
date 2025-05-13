@@ -44,8 +44,9 @@
 
 # Style guide
 
-- Always use a space between numbers and units, e.g. "4 mm" not "4mm"
-- Always use Australian English, e.g. "standardise" instead of "standardize"
+- ALWAYS use a space between numbers and units, e.g. "4 mm" not "4mm"
+- ALWAYS use Australian English, e.g. "standardise" instead of "standardize"
+- ALWAYS have a blank line after a block of code if the next line is a comment
 
 # R packages
 
