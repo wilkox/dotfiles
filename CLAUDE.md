@@ -74,7 +74,6 @@
   - NEVER manually edit NAMESPACE, ALWAYS use `usethis::use_package()`
 - Testing is ALWAYS with `testthis`, and visual testing (if used) is with `vdiffr`
 - Documentation is ALWAYS with `roxygen2`
-  - ALWAYS explicitly title documentation with `@title`, which prevents errors when running `devtools::document()`
 - Validation (e.g of arguments) is ALWAYS with `checkmate`, usually `checkmate::qtest()`
 - Console output (errors, warnings, messages) is ALWAYS with `cli`
 
