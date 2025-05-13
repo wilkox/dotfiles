@@ -96,6 +96,7 @@
 - YOU MUST check that NEWS.md has been updated to reflect any changes
 - YOU MUST check that README.Rmd has been updated to reflect any changes
 - YOU MUST re-compile README.Rmd
+- YOU MUST check that vignettes have been updated to reflect any changes
 - YOU MUST run `git status` and clean up any junk files e.g. Rplots.pdf
 - YOU MUST run tests with `devtools::test()` and fix any failing tests
 - YOU MUST run R CMD check with `devtools::check()` and fix any issues, including updating the spellfile if needed
