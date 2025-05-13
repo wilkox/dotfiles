@@ -71,6 +71,7 @@
   - NEVER use `library()` to load the development version, ALWAYS use `devtools::load_all()`
   - NEVER create a NEWS.md yourself, ALWAYS run `usethis::use_news_md()`
   - NEVER manually implement version numbers, ALWAYS use `usethis::use_version()`
+  - NEVER manually edit NAMESPACE, ALWAYS use `usethis::use_package()`
 - Testing is ALWAYS with `testthis`, and visual testing (if used) is with `vdiffr`
 - Documentation is ALWAYS with `roxygen2`
 - Validation (e.g of arguments) is ALWAYS with `checkmate`, usually `checkmate::qtest()`
