@@ -86,6 +86,12 @@
 >  - R6 fields and active bindings can make use of the @field tag. Their documentation should also be in-line.
 >  - roxygen2 checks that all public methods, public fields, active bindings and all method arguments are documented, and issues warnings otherwise.
 
+## Package imports
+
+- NEVER use @importFrom
+- ALWAYS list imported packages in DESCRIPTION under Depends, and in a separate file R/<packagename>-package.R import them with @import
+- ALWAYS call external functions with `packagename::functionname()`
+
 ## READMEs
 
 - R packages use README.Rmd as the primary README file
