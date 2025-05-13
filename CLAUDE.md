@@ -77,6 +77,15 @@
 - Validation (e.g of arguments) is ALWAYS with `checkmate`, usually `checkmate::qtest()`
 - Console output (errors, warnings, messages) is ALWAYS with `cli`
 
+## Documenting R6 classes
+
+- When documenting R6 classes, refer to this information from the [`roxygen2` documentation](https://roxygen2.r-lib.org/articles/rd-other.html#r6):
+>  - R6 methods can be documented in-line, i.e. the method’s documentation comments come right before the definition of the method.
+>  - Method documentation can use the @description, @details, @param, @return and @examples tags. These are used to create a subsection for the method, within a separate ‘Methods’ section. All roxygen comment lines of a method documentation must appear after a tag.
+>  - @param tags that appear before the class definition are automatically inherited by all methods, if needed.
+>  - R6 fields and active bindings can make use of the @field tag. Their documentation should also be in-line.
+>  - roxygen2 checks that all public methods, public fields, active bindings and all method arguments are documented, and issues warnings otherwise.
+
 ## READMEs
 
 - R packages use README.Rmd as the primary README file
